@@ -41,12 +41,19 @@
         </nav>
         <ul class="connection-nav">
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="link-envelope">
+                <use href="./symbol-defs.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111"
+              ><svg class="link-phone">
+                <use href="./symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -195,17 +202,56 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="conteiner">
-        <a class="footer-logo" href="/">
-          <span class="colorlogo">Web</span>Studio
-        </a>
-        <address class="footer-text">
-          м. Київ, пр-т Лесі Українки, 26
-          <ul class="footer-connection">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <div class="conteiner footer-conteiner">
+        <div class="main-footer-infirmation">
+          <a class="footer-logo" href="/">
+            <span class="colorlogo">Web</span>Studio
+          </a>
+          <address class="footer-text">
+            м. Київ, пр-т Лесі Українки, 26
+            <ul class="footer-connection">
+              <li class="connection-link">
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="connection-link">
+                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <h2 class="join-title">приєднуйтесь</h2>
+          <ul class="join-list">
+            <li class="join-item">
+              <a class="network-link" href="" class="join-link">
+                <svg class="join-icon">
+                  <use href="./symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="network-link" href="" class="join-link">
+                <svg class="join-icon">
+                  <use href="./symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="network-link" href="" class="join-link">
+                <svg class="join-icon">
+                  <use href="./symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="network-link" href="" class="join-link">
+                <svg class="join-icon">
+                  <use href="./symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
