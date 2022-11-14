@@ -200,7 +200,9 @@ footer {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -295,6 +297,8 @@ footer {
   height: 44px;
   width: 44px;
   color: var(--primary-icon-color);
+  align-items: center;
+  justify-content: center;
 }
 .team-network-link:hover,
 .team-network-link:focus {
@@ -305,7 +309,6 @@ footer {
   width: 20px;
   height: 20px;
   fill: currentColor;
-  margin: 12px 12px;
 }
 
 /* Clients */
@@ -330,7 +333,8 @@ footer {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -351,6 +355,7 @@ footer {
 }
 .footer-conteiner {
   display: flex;
+  align-items: baseline;
 }
 .footer-text {
   color: var(--light-text-color);
@@ -397,7 +402,6 @@ footer {
   line-height: 16px;
   color: var(--light-text-color);
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 .join-list {
   display: flex;
@@ -473,12 +477,13 @@ footer {
 }
 .portfolio {
   text-decoration: none;
+  display: block;
 }
 .portfolio-project {
   width: 370px;
 }
-.portfolio-project:hover,
-.portfolio-project:focus {
+.portfolio:hover,
+.portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -489,6 +494,6 @@ footer {
   border-right: 1px solid #ececec;
   padding: 20px 24px;
 }
-.roject-img {
+.project-img {
   display: block;
 }
